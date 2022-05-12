@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtCamCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxCamCon" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtFalCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxFalCon" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtCapBatCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxCapBatCon" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtPolTelCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxPolTelCon" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtBluCin" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxBluCon" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtTecAudCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxTecAudCon" min="-2" pref="158" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="12" max="32767" attributes="0"/>
+                              <Component id="jLabel3" min="-2" pref="149" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtRamCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxRamCon" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="rtArmCon" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cxArmCon" min="-2" pref="80" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cxFormCon" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="msgMesaCon" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="158" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="rtGpuCon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="cxGpuCon" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="rtCpuCon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cxCpuCon" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="rtNomeCon" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="cxNomeCon" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="rtTeraCon" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="cxTeraCon" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+                              <Component id="msgPorCon" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+              <Component id="msgIni" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="msgIni" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="cxNomeCon" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="rtNomeCon" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtCpuCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxCpuCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtGpuCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxGpuCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtRamCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxRamCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtArmCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxArmCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxFormCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtTeraCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTeraCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="msgMesaCon" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtTecAudCon" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTecAudCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtBluCin" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxBluCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="msgPorCon" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtPolTelCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxPolTelCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtCapBatCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxCapBatCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtFalCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxFalCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rtCamCon" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxCamCon" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="msgIni">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sitka Small" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="DADOS DO CONSOLE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtNomeCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="NOME COMERCIAL DO CONSOLE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtCpuCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CPU DO CONSOLE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtGpuCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="GPU DO CONSOLE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtRamCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="MEM&#xd3;RIA RAM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtArmCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ARMAZENAMENTO INTERNO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTeraCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="QUANT. TERAFLOPS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="msgPorCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sitka Small" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CONSOLES PORT&#xc1;TEIS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="msgMesaCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Sitka Small" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CONSOLES DE MESA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtTecAudCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TECNOLOGIA DE &#xc1;UDIO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtBluCin">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="LEITOR BLU-RAY:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtPolTelCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="POLEGADA DE TELA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtCapBatCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CAPACIDADE DA BATERIA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtFalCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TIPO DE AUTO-FALANTE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rtCamCon">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="TIPO DE C&#xc2;MERA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxNomeCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCpuCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxGpuCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxRamCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxArmCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTeraCon">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTecAudCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxBluCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxPolTelCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCapBatCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxFalCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxCamCon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxFormCon">
+    </Component>
+  </SubComponents>
+</Form>
