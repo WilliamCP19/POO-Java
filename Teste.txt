@@ -1,4 +1,0 @@
-Estou testando o github no vsCode.
-Agora sai do github e vai para VSCode.
-
-Agora estou em outra branch.
